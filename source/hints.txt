@@ -1,0 +1,23 @@
+1. Cd --> allproject softwares --> cd folder ---> install jmf_2.1.1_win.exe
+
+2. cd --> video conference --> copy codings and paste it into ur drive.
+
+3. set the jmf path. Goto jmf2.1.1 folder --> doc --> readme.html --> open it.
+
+4. read this page. It has windows path just set it.
+
+5. set the database connection(DSN - Login). Run the Server program. (Login.java)
+
+6. give the client details such as client ip address,port and give the file name which has to be transfered.
+
+ex:
+
+file://c:/snap.avi (For stored file)
+vfw://0 (For live image)
+dsound://0 (For getting sound from Microphone.)
+
+7. Click start transmission button.
+
+8. run client program (Rx.java)
+
+9. Give the server details and click start receiver button.
