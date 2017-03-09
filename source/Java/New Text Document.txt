@@ -1,0 +1,5 @@
+set classpath=.;comm.jar;
+
+javac *.java
+java SimpleRead
+pause
